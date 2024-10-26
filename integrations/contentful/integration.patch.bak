@@ -4,8 +4,8 @@ index b0425c70..659b3543 100644
 +++ b/core/.env.example
 @@ -1,3 +1,7 @@
 +# Contentful
-+CONTENTFUL_SPACE_ID=master
-+CONTENTFUL_ACCESS_TOKEN=QiNp3M2r6v3mxFco-YkT4TDxu0Op8_dsR4fO2slQ-Ss
++CONTENTFUL_SPACE_ID=
++CONTENTFUL_ACCESS_TOKEN=
 +
  # The hash visible in the subject store's URL when signed in to the store control panel.
  # The control panel URL is of the form `https://store-{hash}.mybigcommerce.com`. 
