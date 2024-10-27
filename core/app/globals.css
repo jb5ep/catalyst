@@ -1,3 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");	
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+	color:#707070;
+	font-family: 'Poppins', sans-serif; 
+}
+
+footer {
+	background-color:#011dac;
+	color:#ffffff;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+footer.h3 {
+	color:#ffffff;
+}
+
+@font-face {
+  font-family: 'Mitga';
+  src:  url('mitga.woff2') format('woff2'),
+}
+
+h1, h2, h3 {
+	color:#011f67;
+	font-family: 'Mitga';
+	letter-spacing: -2.4px;
+}

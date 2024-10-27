@@ -52,9 +52,10 @@ const Header = ({
   logo,
   search,
 }: Props) => (
+<div className="sticky top-0 z-50 border-b border-grey-500">
   <div className={cn('relative', className)}>
-    <header className="flex h-[92px] items-center justify-between gap-1 overflow-y-visible bg-white px-4 2xl:container sm:px-10 lg:gap-8 lg:px-12 2xl:mx-auto 2xl:px-0">
-      <CustomLink className="overflow-hidden text-ellipsis py-3" href="/">
+    <header className="sticky top-0 flex h-[92px] items-center justify-between gap-1 overflow-y-visible bg-white px-4 2xl:container sm:px-10 lg:gap-8 lg:px-12 2xl:mx-auto 2xl:px-0">
+      <CustomLink className="overflow-hidden text-ellipsis py-3 sticky top-0" href="/">
         {typeof logo === 'object' ? (
           <BcImage
             alt={logo.altText}
@@ -137,6 +138,7 @@ const Header = ({
         <MobileNav links={links} logo={logo} />
       </div>
     </header>
+  </div>
   </div>
 );
 

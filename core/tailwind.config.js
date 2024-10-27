@@ -32,7 +32,7 @@ const config = {
         },
       },
       fontFamily: {
-        sans: ['var(--font-inter)'],
+		sans: ["Poppins", "sans-serif"],
       },
       borderColor: {
         DEFAULT: '#CFD8DC',
